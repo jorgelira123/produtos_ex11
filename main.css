@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #fcfae8;
+}
+
+header{
+    background-color:#FFF8DC;
+}
+
+header .container{
+    padding: 16px 0;
+    list-style: none;
+    padding: 0;
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section .imagem-sobre {
+    height: 50%;
+    width: 50%;
+    margin-right: 10px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-font {
+    margin-right: 32px;
+    height: 25%;
+    width: 25%;
+}
+
+.compras h2{
+    padding: 0;
+    margin: 0;
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 10px;
+}
+
+section .produtos-grid img{
+    max-width: 100%;
+}
+
+.produtos-grid article {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;   
+}
+
+.produtos-grid button{
+    width: 100%;
+    padding: 8px 0;
+    border: none;  
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px){
+
+    header .container {
+        padding: 0px 0;
+        margin: 0px;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+
+    h1, nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    section{
+        margin: 10px;
+    }
+
+    section .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .imagem-sobre {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .store-font {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+
+    header .container {
+        padding: 0px 0;
+        margin: 0px;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+
+    h1, nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    section .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section .imagem-sobre {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .store-font {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    section{
+        margin: 10px;
+    }
+}
+
+
+
+
+
